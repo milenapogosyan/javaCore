@@ -11,7 +11,4 @@ public class IfExample {
             x = x * 2;
                 if (x > y) System.out.println("x > y");
         }
-
     }
-}
-
