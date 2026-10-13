@@ -8,3 +8,5 @@ public class IntSample {
         System.out.println("int" +sum);
     }
 }
+
+
