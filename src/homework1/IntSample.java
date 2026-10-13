@@ -1,3 +1,5 @@
+package homework1;
+
 public class IntSample {
     public static void main(String[] args) {
         int a = 5;

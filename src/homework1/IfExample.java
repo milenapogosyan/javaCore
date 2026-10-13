@@ -1,4 +1,6 @@
-public class IfSample {
+package homework1;
+
+public class IfExample {
     public static void main(String[] args) {
         int x, y;
         x = 20;
