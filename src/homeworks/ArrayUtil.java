@@ -29,10 +29,33 @@ public class ArrayUtil {
         System.out.println("Minimum number: " + min);
 
         //Խնդիր 6 — Տպել զանգվածի մեջտեղի էլեմենտը կամ էլեմենտները
-        int length = numbers.length;
-        if (length <=2) {
-            System.out.println("Can't print middle values");
-        }
 
+       //Խնդիր 7 — Հաշվել զույգ թվերի քանակը
+        int evenCount = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0 ) {
+                evenCount++;
+        }
     }
-}
+        System.out.println("Even numbers count: " + evenCount);
+
+        //Խնդիր 8 — Հաշվել կենտ թվերի քանակը
+        int oddCount = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0 ){
+                oddCount++;
+            }
+        }
+        System.out.println("Odd numbers count: " + oddCount);
+    //Խնդիր 9 — Հաշվել զանգվածի էլեմենտների գումարը
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        System.out.println("Sum:" + sum);
+
+        //Խնդիր 10 — Հաշվել միջին թվաբանականը
+        double average = (double) sum / numbers.length;
+        System.out.println("Average: " + average);
+        }
+    }
